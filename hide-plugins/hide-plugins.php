@@ -1,14 +1,14 @@
 <?php
 /**
  * @package Hide_Plugins
- * @version 1.0.2
+ * @version 1.0.3
  */
 /*
 Plugin Name: Hide Plugins
 Plugin URI: http://wordpress.org/plugins/hide-plugins/
 Description: Hide installed plugins from all other users.
 Author: ThemeBoy
-Version: 1.0.2
+Version: 1.0.3
 Author URI: http://themeboy.com/
 */
 
@@ -53,7 +53,7 @@ class Hide_Plugins {
 	*/
 	private function define_constants() {
 		if ( !defined( 'HIDE_PLUGINS_VERSION' ) )
-			define( 'HIDE_PLUGINS_VERSION', '1.0.2' );
+			define( 'HIDE_PLUGINS_VERSION', '1.0.3' );
 
 		if ( !defined( 'HIDE_PLUGINS_URL' ) )
 			define( 'HIDE_PLUGINS_URL', plugin_dir_url( __FILE__ ) );
@@ -117,6 +117,7 @@ class Hide_Plugins {
 			if ( array_key_exists( $filename, $plugins ) ) {
 				if ( $user == $current_user->ID ) {
 					$plugins[ $filename ]['Name'] = '<em>' . $plugins[ $filename ]['Name'] . '</em>';
+					$plugins[ $filename ]['Description'] = '<em>' . $plugins[ $filename ]['Description'] . '</em>';
 				} else {
 					unset( $plugins[ $filename ] );
 				}

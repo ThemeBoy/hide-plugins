@@ -1,20 +1,21 @@
-# Translators:
+#
 # Translators:
 # ideodora <ideodora@gmail.com>, 2013
 # Shohei Tanaka <shohei.tanaka@artisanworkshop.biz>, 2013
 # ThemeBoy <support@themeboy.com>, 2014
+# ThemeBoy <support@themeboy.com>, 2014
+# ThemeBoy <support@themeboy.com>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: WP Plugins\n"
+"Project-Id-Version: Hide Plugins\n"
 "POT-Creation-Date: 2014-05-21 18:52+1000\n"
-"PO-Revision-Date: 2014-05-23 17:21+1000\n"
+"PO-Revision-Date: 2014-05-21 18:52+1000\n"
 "Last-Translator: ThemeBoy <support@themeboy.com>\n"
-"Language-Team: Japanese (http://www.transifex.com/projects/p/wp-plugins/"
-"language/ja/)\n"
+"Language-Team: \n"
+"Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Poedit 1.6.3\n"
 "X-Poedit-Basepath: ..\n"
@@ -26,24 +27,24 @@ msgstr ""
 
 #: hide-plugins.php:141
 msgid "Show this plugin"
-msgstr "このプラグインを表示する"
+msgstr "Show this plugin"
 
 #: hide-plugins.php:141
 msgid "Show"
-msgstr "表示する"
+msgstr "Show"
 
 #: hide-plugins.php:143
 msgid "Hide this plugin"
-msgstr "このプラグインを隠す"
+msgstr "Hide this plugin"
 
 #: hide-plugins.php:143
 msgid "Hide"
-msgstr "隠す"
+msgstr "Hide"
 
 #: hide-plugins.php:154 hide-plugins.php:168 hide-plugins.php:177
 #: hide-plugins.php:191
 msgid "Plugin file does not exist."
-msgstr "プラグインファイルが存在しません。"
+msgstr "Plugin file does not exist."
 
 #~ msgid "Hidden"
 #~ msgstr "非表示"
@@ -861,6 +862,7 @@ msgstr "プラグインファイルが存在しません。"
 #~ msgid "Soccer (Association Football)"
 #~ msgstr "サッカー"
 
+#, fuzzy
 #~ msgid "Custom"
 #~ msgstr "カスタム期間:"
 
@@ -897,6 +899,7 @@ msgstr "プラグインファイルが存在しません。"
 #~ msgid "Time"
 #~ msgstr "時間"
 
+#, fuzzy
 #~ msgid "Time/Results"
 #~ msgstr "結果"
 
@@ -909,18 +912,22 @@ msgstr "プラグインファイルが存在しません。"
 #~ msgid "User"
 #~ msgstr "ユーザー"
 
+#, fuzzy
 #~ msgid "Select Photo"
 #~ msgstr "%sを選択"
 
+#, fuzzy
 #~ msgid "Remove photo"
 #~ msgstr "動画を削除"
 
 #~ msgid "Logo"
 #~ msgstr "ロゴ"
 
+#, fuzzy
 #~ msgid "Select Logo"
 #~ msgstr "%sを選択"
 
+#, fuzzy
 #~ msgid "Remove logo"
 #~ msgstr "削除"
 
@@ -965,11 +972,11 @@ msgstr "プラグインファイルが存在しません。"
 
 #~ msgid "<strong>%s event</strong> scheduled"
 #~ msgid_plural "<strong>%s events</strong> scheduled"
-#~ msgstr[0] "d05a45db1ae7a71dcc70271b1202869f_pl_0"
+#~ msgstr[0] "<strong>%sイベント</strong>予約済み"
 
 #~ msgid "<strong>%s event</strong> published"
 #~ msgid_plural "<strong>%s events</strong> published"
-#~ msgstr[0] "4f7a2d4bf97279911b35f40f40ea2251_pl_0"
+#~ msgstr[0] "<strong>%sイベント</strong>公開済み"
 
 #~ msgid "SportsPress Teams (CSV)"
 #~ msgstr "SportsPress チーム (CSV)"
@@ -983,9 +990,11 @@ msgstr "プラグインファイルが存在しません。"
 #~ msgid "Import <strong>players</strong> from a csv file."
 #~ msgstr "csvファイルで<strong>選手</strong>をインポート"
 
+#, fuzzy
 #~ msgid "SportsPress Staff (CSV)"
 #~ msgstr "SportsPress チーム (CSV)"
 
+#, fuzzy
 #~ msgid "Import <strong>staff</strong> from a csv file."
 #~ msgstr "csvファイルで<strong>チーム</strong>をインポート"
 
@@ -1094,6 +1103,7 @@ msgstr "プラグインファイルが存在しません。"
 #~ msgid "Upload file and import"
 #~ msgstr "ファイルをアップロードしてインポート"
 
+#, fuzzy
 #~ msgid "Import"
 #~ msgstr "スポーツ"
 
@@ -1117,6 +1127,7 @@ msgstr "プラグインファイルが存在しません。"
 #~ "選手は、特定の列（7列）で定義する必要があります。<a href=\"%s\">ここをク"
 #~ "リックして、サンプルをダウンロード</a>"
 
+#, fuzzy
 #~ msgid ""
 #~ "Import complete - imported <strong>%s</strong> staff and skipped <strong>"
 #~ "%s</strong>."
@@ -1124,12 +1135,15 @@ msgstr "プラグインファイルが存在しません。"
 #~ "完全なインポート - <strong>%s</strong>のチームをインポートし、<strong>%s</"
 #~ "strong>をスキップ"
 
+#, fuzzy
 #~ msgid "View Staff"
 #~ msgstr "スタッフ"
 
+#, fuzzy
 #~ msgid "Import Staff"
 #~ msgstr "チームをインポート"
 
+#, fuzzy
 #~ msgid ""
 #~ "Staff need to be defined with columns in a specific order (5 columns). <a "
 #~ "href=\"%s\">Click here to download a sample</a>."
@@ -1214,6 +1228,7 @@ msgstr "プラグインファイルが存在しません。"
 #~ msgid "Statistics"
 #~ msgstr "統計"
 
+#, fuzzy
 #~ msgid "Columns"
 #~ msgstr "列:"
 
@@ -1235,6 +1250,7 @@ msgstr "プラグインファイルが存在しません。"
 #~ msgid "Attended"
 #~ msgstr "出場"
 
+#, fuzzy
 #~ msgid "Substituted"
 #~ msgstr "補欠"
 
@@ -1286,6 +1302,7 @@ msgstr "プラグインファイルが存在しません。"
 #~ msgid "Save"
 #~ msgstr "保存"
 
+#, fuzzy
 #~ msgid "Current Teams"
 #~ msgstr "現チーム"
 
@@ -1301,6 +1318,7 @@ msgstr "プラグインファイルが存在しません。"
 #~ msgid "Display maps"
 #~ msgstr "地図を表示する"
 
+#, fuzzy
 #~ msgid "Display outcomes"
 #~ msgstr "地図を表示する"
 
@@ -1473,6 +1491,7 @@ msgstr "プラグインファイルが存在しません。"
 #~ msgid "version"
 #~ msgstr "バージョン"
 
+#, fuzzy
 #~ msgid "SP Post Types"
 #~ msgstr "過去のチーム"
 
@@ -1531,6 +1550,7 @@ msgstr "プラグインファイルが存在しません。"
 #~ msgid "Select %s:"
 #~ msgstr "%sを選択:"
 
+#, fuzzy
 #~ msgid "Display venue"
 #~ msgstr "リーグを表示"
 
