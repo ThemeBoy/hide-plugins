@@ -1,9 +1,9 @@
 === Hide Plugins ===
-Contributors: ThemeBoy
+Contributors: brianmiyaji
 Tags: hide, hidden, plugins, admin, dashboard, secret, visibility, privacy, invisible, ninja
 Requires at least: 3.0
-Tested up to: 3.9.1
-Stable tag: 1.0.3
+Tested up to: 4.5
+Stable tag: 1.0.4
 License: GPLv2 or later
 
 Hide installed plugins from clients and other admin users.
@@ -63,6 +63,9 @@ Hide Plugins will hide the chosen plugins from all other users, including admin 
 Install the [Admin Menu Editor](https://wordpress.org/plugins/admin-menu-editor/) plugin to re-order, hide, or rename menus, add custom menus and more.
 
 == Changelog ==
+
+= 1.0.4 =
+* Feature - Add plugin action links to multisite.
 
 = 1.0.3 =
 * Tweak - Display hidden plugin descriptions in italics.
