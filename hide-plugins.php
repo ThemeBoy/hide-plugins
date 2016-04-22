@@ -1,14 +1,14 @@
 <?php
 /**
  * @package Hide_Plugins
- * @version 1.0.3
+ * @version 1.0.4
  */
 /*
 Plugin Name: Hide Plugins
 Plugin URI: http://wordpress.org/plugins/hide-plugins/
 Description: Hide installed plugins from all other users.
-Author: ThemeBoy
-Version: 1.0.3
+Author: brianmiyaji
+Version: 1.0.4
 Author URI: http://themeboy.com/
 */
 
@@ -46,6 +46,9 @@ class Hide_Plugins {
 		add_filter( 'plugin_action_links', array( $this, 'action_links' ), 10, 4 );
 		add_action( 'admin_action_hide_plugin', array( $this, 'hide_action' ) );
 		add_action( 'admin_action_show_plugin', array( $this, 'show_action' ) );
+		
+		// Multisite
+		add_filter( 'network_admin_plugin_action_links', array( $this, 'action_links' ), 10, 4 );
 	}
 
 	/**
@@ -53,7 +56,7 @@ class Hide_Plugins {
 	*/
 	private function define_constants() {
 		if ( !defined( 'HIDE_PLUGINS_VERSION' ) )
-			define( 'HIDE_PLUGINS_VERSION', '1.0.3' );
+			define( 'HIDE_PLUGINS_VERSION', '1.0.4' );
 
 		if ( !defined( 'HIDE_PLUGINS_URL' ) )
 			define( 'HIDE_PLUGINS_URL', plugin_dir_url( __FILE__ ) );
